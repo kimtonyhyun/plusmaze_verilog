@@ -1,0 +1,1450 @@
+Release 13.3 - xst O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: toplevel.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "toplevel.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "toplevel"
+Output Format                      : NGC
+Target Device                      : xc6slx16-2-ftg256
+
+---- Source Options
+Top Module Name                    : toplevel
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ipcore_dir"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\ipcore_dir\lick_bram.v" into library work
+Parsing module <lick_bram>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\valve_driver.v" into library work
+Parsing module <valve_driver>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\stepper_controller2.v" into library work
+Parsing module <stepper_controller2>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\stepper_controller.v" into library work
+Parsing module <stepper_controller>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\rc_driver.v" into library work
+Parsing module <rc_driver>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" into library work
+Parsing module <okHost>.
+Parsing module <okCore>.
+Parsing module <okWireIn>.
+Parsing module <okWireOut>.
+Parsing module <okTriggerIn>.
+Parsing module <okTriggerOut>.
+Parsing module <okPipeIn>.
+Parsing module <okPipeOut>.
+Parsing module <okBTPipeIn>.
+Parsing module <okBTPipeOut>.
+Parsing module <okWireOR>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\miniscope_interface.v" into library work
+Parsing module <miniscope_interface>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" into library work
+Parsing module <lick_logger>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\debounce.v" into library work
+Parsing module <debounce>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" into library work
+Parsing module <apply_min_width>.
+Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" into library work
+Parsing module <toplevel>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <toplevel>.
+
+Elaborating module <debounce>.
+WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 74: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 75: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 76: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 77: Assignment to btn_d ignored, since the identifier is never used
+
+Elaborating module <miniscope_interface>.
+
+Elaborating module <rc_driver>.
+
+Elaborating module <valve_driver>.
+
+Elaborating module <stepper_controller>.
+
+Elaborating module <stepper_controller2>.
+
+Elaborating module <debounce(DELAY=50000)>.
+
+Elaborating module <debounce(DELAY=10000)>.
+
+Elaborating module <apply_min_width(DELAY=60000)>.
+WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" Line 56: Result of 24-bit expression is truncated to fit in 23-bit target.
+
+Elaborating module <apply_min_width(DELAY=150000)>.
+WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" Line 56: Result of 24-bit expression is truncated to fit in 23-bit target.
+
+Elaborating module <lick_logger>.
+
+Elaborating module <lick_bram>.
+WARNING:HDLCompiler:1499 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\ipcore_dir\lick_bram.v" Line 39: Empty module <lick_bram> remains a black box.
+WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" Line 86: Result of 20-bit expression is truncated to fit in 19-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" Line 99: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:1016 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" Line 34: Port CLK180 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" Line 62: Port BUSY is not connected to this instance
+
+Elaborating module <okHost>.
+
+Elaborating module <DCM_SP>.
+
+Elaborating module <BUFG>.
+
+Elaborating module <FDS>.
+
+Elaborating module <FD>.
+
+Elaborating module <IOBUF>.
+
+Elaborating module <IODELAY2(IDELAY_TYPE="FIXED",IDELAY_VALUE=50,DELAY_SRC="IDATAIN")>.
+
+Elaborating module <FDRE>.
+
+Elaborating module <OBUF>.
+
+Elaborating module <okCore>.
+
+Elaborating module <okWireOR(N=4)>.
+
+Elaborating module <okWireIn>.
+
+Elaborating module <okWireOut>.
+
+Elaborating module <okTriggerIn>.
+
+Elaborating module <okPipeOut>.
+WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 74. All outputs of instance <db0> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 75. All outputs of instance <db1> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 76. All outputs of instance <db2> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 77. All outputs of instance <db3> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 130. All outputs of instance <sc2> of block <stepper_controller2> are unconnected in block <toplevel>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <toplevel>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v".
+WARNING:Xst:647 - Input <clk1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 74: Output port <clean> of the instance <db0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 75: Output port <clean> of the instance <db1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 76: Output port <clean> of the instance <db2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 77: Output port <clean> of the instance <db3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 130: Output port <motor_step> of the instance <sc2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 130: Output port <motor_dir> of the instance <sc2> is unconnected or connected to loadless signal.
+    Found 2-bit register for signal <last_prox>.
+    Found 24-bit register for signal <clk_counter>.
+    Found 24-bit adder for signal <clk_counter[23]_GND_1_o_add_1_OUT> created at line 82.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  26 D-type flip-flop(s).
+Unit <toplevel> synthesized.
+
+Synthesizing Unit <miniscope_interface>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/miniscope_interface.v".
+    Found 32-bit register for signal <frame_count>.
+    Found 1-bit register for signal <miniscope_trig>.
+    Found 2-bit register for signal <state>.
+    Found 2-bit register for signal <miniscope_sync_s>.
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 2                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 32-bit adder for signal <frame_count[31]_GND_3_o_add_1_OUT> created at line 47.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  35 D-type flip-flop(s).
+	inferred   1 Finite State Machine(s).
+Unit <miniscope_interface> synthesized.
+
+Synthesizing Unit <rc_driver>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/rc_driver.v".
+        PULSE_STEP_SIZE = 12'b000001011010
+        NUM_IDLE_PULSES = 4'b0100
+        RC_PERIOD = 16'b0100111000100000
+    Found 2-bit register for signal <state>.
+    Found 1-bit register for signal <out>.
+    Found 12-bit register for signal <pulse_prev>.
+    Found 12-bit register for signal <pulse_curr>.
+    Found 1-bit register for signal <rc_pwr>.
+    Found 4-bit register for signal <idle_pulse_counter>.
+    Found 16-bit register for signal <hi_duration>.
+    Found 16-bit register for signal <lo_duration>.
+    Found 16-bit register for signal <counter>.
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit subtractor for signal <pulse_duration[11]_pulse_curr[11]_sub_3_OUT> created at line 55.
+    Found 12-bit subtractor for signal <pulse_curr[11]_pulse_duration[11]_sub_7_OUT> created at line 60.
+    Found 12-bit subtractor for signal <pulse_curr[11]_GND_4_o_sub_9_OUT> created at line 61.
+    Found 4-bit subtractor for signal <idle_pulse_counter[3]_GND_4_o_sub_14_OUT> created at line 70.
+    Found 16-bit subtractor for signal <GND_4_o_GND_4_o_sub_17_OUT> created at line 81.
+    Found 12-bit adder for signal <pulse_curr[11]_GND_4_o_add_4_OUT> created at line 56.
+    Found 16-bit adder for signal <counter[15]_GND_4_o_add_22_OUT> created at line 102.
+    Found 12-bit comparator greater for signal <pulse_curr[11]_pulse_duration[11]_LessThan_2_o> created at line 54
+    Found 12-bit comparator greater for signal <GND_4_o_pulse_duration[11]_LessThan_4_o> created at line 55
+    Found 12-bit comparator greater for signal <GND_4_o_pulse_curr[11]_LessThan_8_o> created at line 60
+    Found 12-bit comparator equal for signal <pulse_prev[11]_pulse_curr[11]_equal_12_o> created at line 65
+    Found 16-bit comparator greater for signal <counter[15]_hi_duration[15]_LessThan_18_o> created at line 89
+    Found 16-bit comparator greater for signal <counter[15]_lo_duration[15]_LessThan_22_o> created at line 101
+    Summary:
+	inferred   6 Adder/Subtractor(s).
+	inferred  78 D-type flip-flop(s).
+	inferred   6 Comparator(s).
+	inferred  11 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <rc_driver> synthesized.
+
+Synthesizing Unit <valve_driver>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/valve_driver.v".
+    Found 4-bit register for signal <repeat_counter>.
+    Found 24-bit register for signal <counter>.
+    Found 1-bit register for signal <valve_out>.
+    Found 24-bit register for signal <duration_s>.
+    Found 4-bit register for signal <repeats_s>.
+    Found 2-bit register for signal <state>.
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 9                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <repeats[3]_GND_5_o_sub_2_OUT> created at line 51.
+    Found 4-bit adder for signal <repeat_counter[3]_GND_5_o_add_13_OUT> created at line 80.
+    Found 24-bit adder for signal <counter[23]_GND_5_o_add_17_OUT> created at line 88.
+    Found 24-bit comparator equal for signal <counter[23]_duration_s[23]_equal_8_o> created at line 61
+    Found 4-bit comparator equal for signal <repeat_counter[3]_repeats_s[3]_equal_13_o> created at line 76
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred  57 D-type flip-flop(s).
+	inferred   2 Comparator(s).
+	inferred   5 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <valve_driver> synthesized.
+
+Synthesizing Unit <stepper_controller>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/stepper_controller.v".
+        CLK_DIVIDE = 16'b0000011111010000
+        NUM_STEPS = 12'b000110010000
+    Found 2-bit register for signal <state>.
+    Found 16-bit register for signal <clk_counter>.
+    Found 12-bit register for signal <step_counter>.
+    Found 1-bit register for signal <motor_dir>.
+    Found 1-bit register for signal <motor_step>.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 12-bit adder for signal <step_counter[11]_GND_6_o_add_6_OUT> created at line 65.
+    Found 16-bit adder for signal <clk_counter[15]_GND_6_o_add_9_OUT> created at line 70.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <stepper_controller> synthesized.
+
+Synthesizing Unit <debounce_1>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/debounce.v".
+        DELAY = 50000
+    Found 1-bit register for signal <s>.
+    Found 1-bit register for signal <clean>.
+    Found 23-bit register for signal <q>.
+    Found 23-bit adder for signal <q[22]_GND_8_o_add_3_OUT> created at line 44.
+    Found 1-bit comparator equal for signal <n0000> created at line 34
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <debounce_1> synthesized.
+
+Synthesizing Unit <debounce_2>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/debounce.v".
+        DELAY = 10000
+    Found 1-bit register for signal <s>.
+    Found 1-bit register for signal <clean>.
+    Found 23-bit register for signal <q>.
+    Found 23-bit adder for signal <q[22]_GND_9_o_add_3_OUT> created at line 44.
+    Found 1-bit comparator equal for signal <n0000> created at line 34
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <debounce_2> synthesized.
+
+Synthesizing Unit <apply_min_width_1>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/apply_min_width.v".
+        DELAY = 60000
+    Found 2-bit register for signal <state>.
+    Found 23-bit register for signal <q>.
+    Found 1-bit register for signal <out>.
+    Found finite state machine <FSM_4> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 23-bit adder for signal <q[22]_GND_10_o_add_4_OUT> created at line 56.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <apply_min_width_1> synthesized.
+
+Synthesizing Unit <apply_min_width_2>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/apply_min_width.v".
+        DELAY = 150000
+    Found 2-bit register for signal <state>.
+    Found 23-bit register for signal <q>.
+    Found 1-bit register for signal <out>.
+    Found finite state machine <FSM_5> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 3                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 23-bit adder for signal <q[22]_GND_11_o_add_4_OUT> created at line 56.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <apply_min_width_2> synthesized.
+
+Synthesizing Unit <lick_logger>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/lick_logger.v".
+        S_IDLE = 2'b00
+        S_WAIT_FOR_SYNC = 2'b01
+        S_RECORD = 2'b10
+    Found 1-bit register for signal <wea>.
+    Found 19-bit register for signal <write_addr>.
+    Found 2-bit register for signal <state>.
+    Found 15-bit register for signal <read_addr>.
+    Found 2-bit register for signal <sync_s>.
+    Found finite state machine <FSM_6> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 3                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | 00                                             |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 19-bit adder for signal <write_addr[18]_GND_12_o_add_5_OUT> created at line 86.
+    Found 15-bit adder for signal <read_addr[14]_GND_12_o_add_13_OUT> created at line 99.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred  37 D-type flip-flop(s).
+	inferred   4 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <lick_logger> synthesized.
+
+Synthesizing Unit <okHost>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/oklibrary.v".
+    Set property "IOB = TRUE" for instance <delays[0].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[0].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[0].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[1].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[1].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[1].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[2].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[2].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[2].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[3].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[3].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[3].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[4].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[4].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[4].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[5].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[5].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[5].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[6].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[6].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[6].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[7].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[7].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[7].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[8].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[8].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[8].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[9].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[9].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[9].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[10].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[10].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[10].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[11].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[11].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[11].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[12].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[12].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[12].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[13].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[13].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[13].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[14].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[14].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[14].fdreout1>.
+    Set property "IOB = TRUE" for instance <delays[15].fdrein0>.
+    Set property "IOB = TRUE" for instance <delays[15].fdreout0>.
+    Set property "IOB = TRUE" for instance <delays[15].fdreout1>.
+    Summary:
+	no macro.
+Unit <okHost> synthesized.
+
+Synthesizing Unit <okWireOR>.
+    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/oklibrary.v".
+        N = 4
+    Summary:
+	no macro.
+Unit <okWireOR> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 52
+ 12-bit adder                                          : 1
+ 12-bit addsub                                         : 4
+ 12-bit subtractor                                     : 8
+ 15-bit adder                                          : 1
+ 16-bit adder                                          : 5
+ 16-bit subtractor                                     : 4
+ 19-bit adder                                          : 1
+ 23-bit adder                                          : 10
+ 24-bit adder                                          : 5
+ 32-bit adder                                          : 1
+ 4-bit adder                                           : 4
+ 4-bit subtractor                                      : 8
+# Registers                                            : 93
+ 1-bit register                                        : 34
+ 12-bit register                                       : 9
+ 15-bit register                                       : 1
+ 16-bit register                                       : 13
+ 19-bit register                                       : 1
+ 2-bit register                                        : 3
+ 23-bit register                                       : 10
+ 24-bit register                                       : 9
+ 32-bit register                                       : 1
+ 4-bit register                                        : 12
+# Comparators                                          : 40
+ 1-bit comparator equal                                : 8
+ 12-bit comparator equal                               : 4
+ 12-bit comparator greater                             : 12
+ 16-bit comparator greater                             : 8
+ 24-bit comparator equal                               : 4
+ 4-bit comparator equal                                : 4
+# Multiplexers                                         : 74
+ 1-bit 2-to-1 multiplexer                              : 4
+ 12-bit 2-to-1 multiplexer                             : 25
+ 16-bit 2-to-1 multiplexer                             : 18
+ 19-bit 2-to-1 multiplexer                             : 1
+ 23-bit 2-to-1 multiplexer                             : 2
+ 24-bit 2-to-1 multiplexer                             : 16
+ 4-bit 2-to-1 multiplexer                              : 8
+# FSMs                                                 : 13
+
+=========================================================================
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <okWireIn.ngc>.
+Reading core <okWireOut.ngc>.
+Reading core <okTriggerIn.ngc>.
+Reading core <okPipeOut.ngc>.
+Reading core <okCore.ngc>.
+Reading core <ipcore_dir/lick_bram.ngc>.
+Loading core <okWireIn> for timing and area information for instance <ep00>.
+Loading core <okWireIn> for timing and area information for instance <ep01>.
+Loading core <okWireIn> for timing and area information for instance <ep02>.
+Loading core <okWireIn> for timing and area information for instance <ep03>.
+Loading core <okWireIn> for timing and area information for instance <ep04>.
+Loading core <okWireIn> for timing and area information for instance <ep05>.
+Loading core <okWireIn> for timing and area information for instance <ep06>.
+Loading core <okWireIn> for timing and area information for instance <ep07>.
+Loading core <okWireIn> for timing and area information for instance <ep08>.
+Loading core <okWireOut> for timing and area information for instance <ep20>.
+Loading core <okWireOut> for timing and area information for instance <ep21>.
+Loading core <okWireOut> for timing and area information for instance <ep22>.
+Loading core <okTriggerIn> for timing and area information for instance <ep40>.
+Loading core <okTriggerIn> for timing and area information for instance <ep41>.
+Loading core <okPipeOut> for timing and area information for instance <epA0>.
+Loading core <okCore> for timing and area information for instance <hicore>.
+Loading core <lick_bram> for timing and area information for instance <buffer>.
+INFO:Xst:2261 - The FF/Latch <pulse_prev_10> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_10> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_11> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_11> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_0> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_0> 
+INFO:Xst:2261 - The FF/Latch <hi_duration_12> in Unit <d0> is equivalent to the following 3 FFs/Latches, which will be removed : <hi_duration_13> <hi_duration_14> <hi_duration_15> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_1> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_1> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_2> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_2> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_3> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_3> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_4> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_4> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_5> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_5> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_6> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_6> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_7> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_7> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_8> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_8> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_9> in Unit <d0> is equivalent to the following FF/Latch, which will be removed : <hi_duration_9> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_10> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_10> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_11> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_11> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_0> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_0> 
+INFO:Xst:2261 - The FF/Latch <hi_duration_12> in Unit <d1> is equivalent to the following 3 FFs/Latches, which will be removed : <hi_duration_13> <hi_duration_14> <hi_duration_15> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_1> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_1> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_2> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_2> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_3> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_3> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_4> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_4> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_5> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_5> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_6> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_6> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_7> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_7> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_8> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_8> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_9> in Unit <d1> is equivalent to the following FF/Latch, which will be removed : <hi_duration_9> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_10> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_10> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_11> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_11> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_0> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_0> 
+INFO:Xst:2261 - The FF/Latch <hi_duration_12> in Unit <d2> is equivalent to the following 3 FFs/Latches, which will be removed : <hi_duration_13> <hi_duration_14> <hi_duration_15> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_1> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_1> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_2> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_2> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_3> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_3> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_4> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_4> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_5> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_5> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_6> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_6> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_7> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_7> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_8> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_8> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_9> in Unit <d2> is equivalent to the following FF/Latch, which will be removed : <hi_duration_9> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_10> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_10> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_11> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_11> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_0> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_0> 
+INFO:Xst:2261 - The FF/Latch <hi_duration_12> in Unit <d3> is equivalent to the following 3 FFs/Latches, which will be removed : <hi_duration_13> <hi_duration_14> <hi_duration_15> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_1> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_1> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_2> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_2> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_3> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_3> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_4> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_4> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_5> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_5> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_6> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_6> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_7> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_7> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_8> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_8> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_9> in Unit <d3> is equivalent to the following FF/Latch, which will be removed : <hi_duration_9> 
+WARNING:Xst:1710 - FF/Latch <duration_s_22> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_23> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_16> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_17> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_18> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_19> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_20> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_21> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_22> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_23> (without init value) has a constant value of 0 in block <vd2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_16> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_17> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_18> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_19> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_20> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_21> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_22> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_23> (without init value) has a constant value of 0 in block <vd3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <hi_duration_12> (without init value) has a constant value of 0 in block <d0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <hi_duration_12> (without init value) has a constant value of 0 in block <d1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <hi_duration_12> (without init value) has a constant value of 0 in block <d2>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <hi_duration_12> (without init value) has a constant value of 0 in block <d3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_16> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_17> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_18> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_19> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_20> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_21> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_22> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_23> (without init value) has a constant value of 0 in block <vd0>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_16> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_17> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_18> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_19> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_20> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <duration_s_21> (without init value) has a constant value of 0 in block <vd1>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2404 -  FFs/Latches <hi_duration<15:12>> (without init value) have a constant value of 0 in block <rc_driver>.
+
+Synthesizing (advanced) Unit <apply_min_width_1>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <apply_min_width_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <apply_min_width_2>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <apply_min_width_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <debounce_1>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <debounce_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <debounce_2>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <debounce_2> synthesized (advanced).
+
+Synthesizing (advanced) Unit <lick_logger>.
+The following registers are absorbed into counter <write_addr>: 1 register on signal <write_addr>.
+The following registers are absorbed into counter <read_addr>: 1 register on signal <read_addr>.
+Unit <lick_logger> synthesized (advanced).
+
+Synthesizing (advanced) Unit <miniscope_interface>.
+The following registers are absorbed into counter <frame_count>: 1 register on signal <frame_count>.
+Unit <miniscope_interface> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rc_driver>.
+The following registers are absorbed into counter <idle_pulse_counter>: 1 register on signal <idle_pulse_counter>.
+Unit <rc_driver> synthesized (advanced).
+
+Synthesizing (advanced) Unit <stepper_controller>.
+The following registers are absorbed into counter <step_counter>: 1 register on signal <step_counter>.
+Unit <stepper_controller> synthesized (advanced).
+
+Synthesizing (advanced) Unit <toplevel>.
+The following registers are absorbed into counter <clk_counter>: 1 register on signal <clk_counter>.
+Unit <toplevel> synthesized (advanced).
+
+Synthesizing (advanced) Unit <valve_driver>.
+The following registers are absorbed into counter <repeat_counter>: 1 register on signal <repeat_counter>.
+Unit <valve_driver> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 29
+ 12-bit addsub                                         : 4
+ 12-bit subtractor                                     : 8
+ 16-bit adder                                          : 5
+ 16-bit subtractor                                     : 4
+ 24-bit adder                                          : 4
+ 4-bit subtractor                                      : 4
+# Counters                                             : 23
+ 12-bit up counter                                     : 1
+ 15-bit up counter                                     : 1
+ 19-bit up counter                                     : 1
+ 23-bit up counter                                     : 10
+ 24-bit up counter                                     : 1
+ 32-bit up counter                                     : 1
+ 4-bit down counter                                    : 4
+ 4-bit up counter                                      : 4
+# Registers                                            : 588
+ Flip-Flops                                            : 588
+# Comparators                                          : 40
+ 1-bit comparator equal                                : 8
+ 12-bit comparator equal                               : 4
+ 12-bit comparator greater                             : 12
+ 16-bit comparator greater                             : 8
+ 24-bit comparator equal                               : 4
+ 4-bit comparator equal                                : 4
+# Multiplexers                                         : 62
+ 1-bit 2-to-1 multiplexer                              : 4
+ 12-bit 2-to-1 multiplexer                             : 24
+ 16-bit 2-to-1 multiplexer                             : 18
+ 24-bit 2-to-1 multiplexer                             : 16
+# FSMs                                                 : 13
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <pulse_prev_10> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_10> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_11> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_11> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_0> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_0> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_1> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_1> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_2> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_2> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_3> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_3> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_4> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_4> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_5> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_5> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_6> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_6> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_7> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_7> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_8> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_8> 
+INFO:Xst:2261 - The FF/Latch <pulse_prev_9> in Unit <rc_driver> is equivalent to the following FF/Latch, which will be removed : <hi_duration_9> 
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_4> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_5> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <mi0/FSM_0> on signal <state[1:1]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 0
+ 01    | 1
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <logger/FSM_6> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <d0/FSM_1> on signal <state[1:2]> with user encoding.
+Optimizing FSM <d1/FSM_1> on signal <state[1:2]> with user encoding.
+Optimizing FSM <d2/FSM_1> on signal <state[1:2]> with user encoding.
+Optimizing FSM <d3/FSM_1> on signal <state[1:2]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <vd0/FSM_2> on signal <state[1:2]> with gray encoding.
+Optimizing FSM <vd1/FSM_2> on signal <state[1:2]> with gray encoding.
+Optimizing FSM <vd2/FSM_2> on signal <state[1:2]> with gray encoding.
+Optimizing FSM <vd3/FSM_2> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+ 11    | 10
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <sc1/FSM_3> on signal <state[1:2]> with gray encoding.
+-------------------
+ State | Encoding
+-------------------
+ 00    | 00
+ 01    | 01
+ 10    | 11
+-------------------
+WARNING:Xst:1710 - FF/Latch <lo_duration_15> (without init value) has a constant value of 0 in block <rc_driver>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <clk_counter_2> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_3> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_4> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_5> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_6> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_7> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_8> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_9> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_10> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_11> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_12> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_13> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_14> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_15> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_16> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_17> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_18> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_19> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_20> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_21> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_22> of sequential type is unconnected in block <toplevel>.
+WARNING:Xst:2677 - Node <clk_counter_23> of sequential type is unconnected in block <toplevel>.
+
+Optimizing unit <toplevel> ...
+
+Optimizing unit <okHost> ...
+
+Optimizing unit <miniscope_interface> ...
+
+Optimizing unit <lick_logger> ...
+
+Optimizing unit <debounce_1> ...
+
+Optimizing unit <debounce_2> ...
+
+Optimizing unit <rc_driver> ...
+
+Optimizing unit <valve_driver> ...
+
+Optimizing unit <stepper_controller> ...
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_16> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_17> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_18> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_19> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_20> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_21> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_22> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd0/duration_s_23> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_16> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_17> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_18> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_19> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_20> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_21> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_22> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd1/duration_s_23> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_16> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_17> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_18> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_19> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_20> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_21> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_22> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd2/duration_s_23> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_16> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_17> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_18> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_19> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_20> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_21> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_22> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <vd3/duration_s_23> (without init value) has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_14> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db9/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_14> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db10/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_14> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/clk_counter_11> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/clk_counter_12> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/clk_counter_13> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/clk_counter_14> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/clk_counter_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/step_counter_9> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/step_counter_10> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <sc1/step_counter_11> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d0/counter_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d0/idle_pulse_counter_3> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d1/counter_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d1/idle_pulse_counter_3> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d2/counter_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d2/idle_pulse_counter_3> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d3/counter_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <d3/idle_pulse_counter_3> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_14> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_15> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db8/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db7/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width2/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width2/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width2/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width2/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width2/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <lick_width/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db11/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db4/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_19> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_20> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_21> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db5/q_22> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_16> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_17> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1293 - FF/Latch <db6/q_18> has a constant value of 0 in block <toplevel>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <d1/state_FSM_FFd2> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d1/out> 
+INFO:Xst:2261 - The FF/Latch <d3/state_FSM_FFd2> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d3/out> 
+INFO:Xst:2261 - The FF/Latch <d1/lo_duration_13> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d1/lo_duration_12> 
+INFO:Xst:2261 - The FF/Latch <logger/state_FSM_FFd1> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <logger/wea> 
+INFO:Xst:2261 - The FF/Latch <d3/lo_duration_13> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d3/lo_duration_12> 
+INFO:Xst:2261 - The FF/Latch <d3/lo_duration_0> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d3/pulse_prev_0> 
+INFO:Xst:2261 - The FF/Latch <mi0/state_FSM_FFd1> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <mi0/miniscope_trig> 
+INFO:Xst:2261 - The FF/Latch <d1/lo_duration_0> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d1/pulse_prev_0> 
+INFO:Xst:2261 - The FF/Latch <d0/state_FSM_FFd2> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d0/out> 
+INFO:Xst:2261 - The FF/Latch <d2/state_FSM_FFd2> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d2/out> 
+INFO:Xst:2261 - The FF/Latch <d2/lo_duration_0> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d2/pulse_prev_0> 
+INFO:Xst:2261 - The FF/Latch <d0/lo_duration_0> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d0/pulse_prev_0> 
+INFO:Xst:2261 - The FF/Latch <d0/lo_duration_13> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d0/lo_duration_12> 
+INFO:Xst:2261 - The FF/Latch <d2/lo_duration_13> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <d2/lo_duration_12> 
+INFO:Xst:2261 - The FF/Latch <mi0/miniscope_sync_s_0> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <logger/sync_s_0> 
+INFO:Xst:2261 - The FF/Latch <mi0/miniscope_sync_s_1> in Unit <toplevel> is equivalent to the following FF/Latch, which will be removed : <logger/sync_s_1> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block toplevel, actual ratio is 23.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 763
+ Flip-Flops                                            : 763
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : toplevel.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 3131
+#      GND                         : 6
+#      INV                         : 73
+#      LUT1                        : 331
+#      LUT2                        : 316
+#      LUT3                        : 96
+#      LUT4                        : 245
+#      LUT5                        : 312
+#      LUT6                        : 437
+#      MUXCY                       : 688
+#      MUXF7                       : 19
+#      VCC                         : 3
+#      XORCY                       : 605
+# FlipFlops/Latches                : 1302
+#      FD                          : 63
+#      FDC                         : 96
+#      FDE                         : 527
+#      FDR                         : 31
+#      FDRE                        : 583
+#      FDS                         : 2
+# RAMS                             : 31
+#      RAMB16BWER                  : 31
+# Clock Buffers                    : 3
+#      BUFG                        : 2
+#      BUFGP                       : 1
+# IO Buffers                       : 60
+#      IBUF                        : 16
+#      IBUFG                       : 1
+#      IOBUF                       : 16
+#      OBUF                        : 27
+# DCMs                             : 1
+#      DCM_SP                      : 1
+# Others                           : 16
+#      IODELAY2                    : 16
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16ftg256-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            1254  out of  18224     6%  
+ Number of Slice LUTs:                 1810  out of   9112    19%  
+    Number used as Logic:              1810  out of   9112    19%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   2336
+   Number with an unused Flip Flop:    1082  out of   2336    46%  
+   Number with an unused LUT:           526  out of   2336    22%  
+   Number of fully used LUT-FF pairs:   728  out of   2336    31%  
+   Number of unique control sets:        80
+
+IO Utilization: 
+ Number of IOs:                          66
+ Number of bonded IOBs:                  61  out of    186    32%  
+    IOB Flip Flops/Latches:              48
+
+Specific Feature Utilization:
+ Number of Block RAM/FIFO:               31  out of     32    96%  
+    Number using Block RAM only:         31
+ Number of BUFG/BUFGCTRLs:                3  out of     16    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_counter_1                      | BUFG                   | 773   |
+clk2                               | BUFGP                  | 2     |
+hi_in<0>                           | DCM_SP:CLK0            | 589   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 7.902ns (Maximum Frequency: 126.546MHz)
+   Minimum input arrival time before clock: 6.352ns
+   Maximum output required time after clock: 5.706ns
+   Maximum combinational path delay: 1.328ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_counter_1'
+  Clock period: 6.782ns (frequency: 147.460MHz)
+  Total number of paths / destination ports: 173198 / 2048
+-------------------------------------------------------------------------
+Delay:               6.782ns (Levels of Logic = 18)
+  Source:            d3/pulse_curr_0 (FF)
+  Destination:       d3/pulse_curr_11 (FF)
+  Source Clock:      clk_counter_1 rising
+  Destination Clock: clk_counter_1 rising
+
+  Data Path: d3/pulse_curr_0 to d3/pulse_curr_11
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              8   0.525   0.944  d3/pulse_curr_0 (d3/pulse_curr_0)
+     LUT2:I1->O            1   0.254   0.000  d3/Msub_pulse_curr[11]_pulse_duration[11]_sub_7_OUT_lut<0> (d3/Msub_pulse_curr[11]_pulse_duration[11]_sub_7_OUT_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  d3/Msub_pulse_curr[11]_pulse_duration[11]_sub_7_OUT_cy<0> (d3/Msub_pulse_curr[11]_pulse_duration[11]_sub_7_OUT_cy<0>)
+     XORCY:CI->O           1   0.206   1.112  d3/Msub_pulse_curr[11]_pulse_duration[11]_sub_7_OUT_xor<1> (d3/pulse_curr[11]_pulse_duration[11]_sub_7_OUT<1>)
+     LUT6:I1->O            2   0.254   0.726  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_B<1>5 (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_B<1>5)
+     LUT6:I5->O           21   0.254   1.310  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_B<1>6_SW0 (N31)
+     LUT6:I5->O            1   0.254   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_lut<0> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_lut<0>)
+     MUXCY:S->O            1   0.215   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<0> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<0>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<1> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<1>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<2> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<2>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<3> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<3>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<4> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<4>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<5> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<5>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<6> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<6>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<7> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<7>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<8> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<8>)
+     MUXCY:CI->O           1   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<9> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<9>)
+     MUXCY:CI->O           0   0.023   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<10> (d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_cy<10>)
+     XORCY:CI->O           1   0.206   0.000  d3/Mmux_pulse_duration[11]_pulse_duration[11]_mux_10_OUT_rs_xor<11> (d3/pulse_duration[11]_pulse_duration[11]_mux_10_OUT<11>)
+     FDE:D                     0.074          d3/pulse_curr_11
+    ----------------------------------------
+    Total                      6.782ns (2.690ns logic, 4.092ns route)
+                                       (39.7% logic, 60.3% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk2'
+  Clock period: 1.956ns (frequency: 511.247MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               1.956ns (Levels of Logic = 3)
+  Source:            clk_counter_0 (FF)
+  Destination:       clk_counter_1 (FF)
+  Source Clock:      clk2 rising
+  Destination Clock: clk2 rising
+
+  Data Path: clk_counter_0 to clk_counter_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.525   0.681  clk_counter_0 (clk_counter_0)
+     INV:I->O              1   0.255   0.000  Mcount_clk_counter_lut<0>_INV_0 (Mcount_clk_counter_lut<0>)
+     MUXCY:S->O            0   0.215   0.000  Mcount_clk_counter_cy<0> (Mcount_clk_counter_cy<0>)
+     XORCY:CI->O           1   0.206   0.000  Mcount_clk_counter_xor<1> (Result<1>)
+     FD:D                      0.074          clk_counter_1
+    ----------------------------------------
+    Total                      1.956ns (1.275ns logic, 0.681ns route)
+                                       (65.2% logic, 34.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'hi_in<0>'
+  Clock period: 7.902ns (frequency: 126.546MHz)
+  Total number of paths / destination ports: 5798 / 1662
+-------------------------------------------------------------------------
+Delay:               7.902ns (Levels of Logic = 9)
+  Source:            logger/buffer/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1 (FF)
+  Destination:       okHI/delays[15].fdreout0 (FF)
+  Source Clock:      hi_in<0> rising
+  Destination Clock: hi_in<0> rising
+
+  Data Path: logger/buffer/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1 to okHI/delays[15].fdreout0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q            128   0.525   2.750  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe<1>)
+     LUT6:I0->O            1   0.254   0.958  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_81 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_81)
+     LUT6:I2->O            1   0.254   0.000  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_316 (U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_3)
+     MUXF7:I1->O           1   0.175   0.682  U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/Mmux_dout_mux_2_f7 (doutb<0>)
+     end scope: 'logger/buffer:doutb<0>'
+     begin scope: 'epA0:ep_datain<0>'
+     LUT2:I1->O            1   0.254   0.682  Mmux_ok2<15:0>11 (ok2<0>)
+     end scope: 'epA0:ok2<0>'
+     LUT4:I3->O            1   0.254   0.790  wireOR/ok2<0>1 (ok2<0>)
+     begin scope: 'okHI/hicore:ok2<0>'
+     LUT2:I0->O            1   0.250   0.000  Mmux_hi_dataout161 (hi_dataout<0>)
+     end scope: 'okHI/hicore:hi_dataout<0>'
+     FDRE:D                    0.074          okHI/delays[0].fdreout0
+    ----------------------------------------
+    Total                      7.902ns (2.040ns logic, 5.862ns route)
+                                       (25.8% logic, 74.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'hi_in<0>'
+  Total number of paths / destination ports: 530 / 119
+-------------------------------------------------------------------------
+Offset:              6.352ns (Levels of Logic = 5)
+  Source:            hi_in<7> (PAD)
+  Destination:       okHI/hicore/ti_dataout_0 (FF)
+  Destination Clock: hi_in<0> rising
+
+  Data Path: hi_in<7> to okHI/hicore/ti_dataout_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            20   1.328   1.562  hi_in_7_IBUF (hi_in_7_IBUF)
+     begin scope: 'okHI/hicore:hi_in<7>'
+     LUT4:I0->O           18   0.254   1.463  hi_addr[3]_hi_addr[3]_OR_57_o1 (hi_addr[3]_hi_addr[3]_OR_57_o)
+     LUT5:I2->O           16   0.235   1.182  state[31]_ti_dataout[15]_select_91_OUT<0>12 (N2)
+     LUT6:I5->O            1   0.254   0.000  state[31]_ti_dataout[15]_select_91_OUT<0>2 (state[31]_ti_dataout[15]_select_91_OUT<0>)
+     FDE:D                     0.074          ti_dataout_0
+    ----------------------------------------
+    Total                      6.352ns (2.145ns logic, 4.207ns route)
+                                       (33.8% logic, 66.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_counter_1'
+  Total number of paths / destination ports: 137 / 137
+-------------------------------------------------------------------------
+Offset:              4.092ns (Levels of Logic = 2)
+  Source:            prox3 (PAD)
+  Destination:       db7/q_15 (FF)
+  Destination Clock: clk_counter_1 rising
+
+  Data Path: prox3 to db7/q_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   1.328   0.874  prox3_IBUF (prox3_IBUF)
+     LUT2:I0->O           16   0.250   1.181  db7/n0000_inv1 (db7/n0000_inv)
+     FDRE:R                    0.459          db7/q_0
+    ----------------------------------------
+    Total                      4.092ns (2.037ns logic, 2.055ns route)
+                                       (49.8% logic, 50.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'hi_in<0>'
+  Total number of paths / destination ports: 33 / 17
+-------------------------------------------------------------------------
+Offset:              4.118ns (Levels of Logic = 2)
+  Source:            okHI/hicore/hi_busy (FF)
+  Destination:       hi_out<0> (PAD)
+  Source Clock:      hi_in<0> rising
+
+  Data Path: okHI/hicore/hi_busy to hi_out<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.525   0.681  hi_busy (hi_out<0>)
+     end scope: 'okHI/hicore:hi_out<0>'
+     OBUF:I->O                 2.912          okHI/obuf0 (hi_out<0>)
+    ----------------------------------------
+    Total                      4.118ns (3.437ns logic, 0.681ns route)
+                                       (83.5% logic, 16.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_counter_1'
+  Total number of paths / destination ports: 20 / 13
+-------------------------------------------------------------------------
+Offset:              5.706ns (Levels of Logic = 2)
+  Source:            d0/state_FSM_FFd2 (FF)
+  Destination:       rc_out0 (PAD)
+  Source Clock:      clk_counter_1 rising
+
+  Data Path: d0/state_FSM_FFd2 to rc_out0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              22   0.525   1.334  d0/state_FSM_FFd2 (d0/state_FSM_FFd2)
+     LUT2:I1->O            1   0.254   0.681  d0/rc_out1 (rc_out0_OBUF)
+     OBUF:I->O                 2.912          rc_out0_OBUF (rc_out0)
+    ----------------------------------------
+    Total                      5.706ns (3.691ns logic, 2.015ns route)
+                                       (64.7% logic, 35.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk2'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.162ns (Levels of Logic = 1)
+  Source:            clk_counter_1 (FF)
+  Destination:       clk_1mhz (PAD)
+  Source Clock:      clk2 rising
+
+  Data Path: clk_counter_1 to clk_1mhz
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.525   0.725  clk_counter_1 (clk_counter_1)
+     OBUF:I->O                 2.912          clk_1mhz_OBUF (clk_1mhz)
+    ----------------------------------------
+    Total                      4.162ns (3.437ns logic, 0.725ns route)
+                                       (82.6% logic, 17.4% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Delay:               1.328ns (Levels of Logic = 1)
+  Source:            hi_inout<15> (PAD)
+  Destination:       okHI/delays[15].iodelay_inst:IDATAIN (PAD)
+
+  Data Path: hi_inout<15> to okHI/delays[15].iodelay_inst:IDATAIN
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           0   1.328   0.000  okHI/delays[15].iobf0 (okHI/iobf0_hi_datain<15>)
+    IODELAY2:IDATAIN           0.000          okHI/delays[15].iodelay_inst
+    ----------------------------------------
+    Total                      1.328ns (1.328ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk2
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk2           |    1.956|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clk_counter_1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_counter_1  |    6.782|         |         |         |
+hi_in<0>       |    6.818|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock hi_in<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_counter_1  |    1.324|         |         |         |
+hi_in<0>       |    7.902|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 21.58 secs
+ 
+--> 
+
+Total memory usage is 268484 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  201 (   0 filtered)
+Number of infos    :   87 (   0 filtered)
+
