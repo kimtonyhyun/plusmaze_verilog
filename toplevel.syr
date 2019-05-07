@@ -1,10 +1,10 @@
-Release 13.3 - xst O.76xd (nt64)
+Release 13.1 - xst O.40d (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.08 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
@@ -41,6 +41,7 @@ TABLE OF CONTENTS
 =========================================================================
 ---- Source Parameters
 Input File Name                    : "toplevel.prj"
+Input Format                       : mixed
 Ignore Synthesis Constraint File   : NO
 
 ---- Target Parameters
@@ -108,17 +109,17 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\ipcore_dir\lick_bram.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\ipcore_dir\lick_bram.v\" into library work
 Parsing module <lick_bram>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\valve_driver.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\valve_driver.v\" into library work
 Parsing module <valve_driver>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\stepper_controller2.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\stepper_controller2.v\" into library work
 Parsing module <stepper_controller2>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\stepper_controller.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\stepper_controller.v\" into library work
 Parsing module <stepper_controller>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\rc_driver.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\rc_driver.v\" into library work
 Parsing module <rc_driver>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\okLibrary.v\" into library work
 Parsing module <okHost>.
 Parsing module <okCore>.
 Parsing module <okWireIn>.
@@ -130,16 +131,36 @@ Parsing module <okPipeOut>.
 Parsing module <okBTPipeIn>.
 Parsing module <okBTPipeOut>.
 Parsing module <okWireOR>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\miniscope_interface.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\miniscope_interface.v\" into library work
 Parsing module <miniscope_interface>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\lick_logger.v\" into library work
 Parsing module <lick_logger>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\debounce.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\debounce.v\" into library work
 Parsing module <debounce>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\apply_min_width.v\" into library work
 Parsing module <apply_min_width>.
-Analyzing Verilog file "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" into library work
+Analyzing Verilog file \"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v\" into library work
 Parsing module <toplevel>.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 76: Positional port connection in entity/module instantiation <db0> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 77: Positional port connection in entity/module instantiation <db1> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 78: Positional port connection in entity/module instantiation <db2> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 79: Positional port connection in entity/module instantiation <db3> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 107: Positional port connection in entity/module instantiation <d0> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 108: Positional port connection in entity/module instantiation <d1> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 109: Positional port connection in entity/module instantiation <d2> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 110: Positional port connection in entity/module instantiation <d3> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 119: Positional port connection in entity/module instantiation <vd0> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 120: Positional port connection in entity/module instantiation <vd1> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 121: Positional port connection in entity/module instantiation <vd2> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 122: Positional port connection in entity/module instantiation <vd3> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 139: Positional port connection in entity/module instantiation <db4> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 140: Positional port connection in entity/module instantiation <db5> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 141: Positional port connection in entity/module instantiation <db6> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 142: Positional port connection in entity/module instantiation <db7> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 167: Positional port connection in entity/module instantiation <db8> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 168: Positional port connection in entity/module instantiation <db9> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 169: Positional port connection in entity/module instantiation <db10> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+WARNING:HDLCompiler:1694 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 170: Positional port connection in entity/module instantiation <db11> increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 
 =========================================================================
 *                            HDL Elaboration                            *
@@ -148,10 +169,10 @@ Parsing module <toplevel>.
 Elaborating module <toplevel>.
 
 Elaborating module <debounce>.
-WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 74: Assignment to btn_d ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 75: Assignment to btn_d ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 76: Assignment to btn_d ignored, since the identifier is never used
-WARNING:HDLCompiler:1127 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 77: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 76: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 77: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 78: Assignment to btn_d ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 79: Assignment to btn_d ignored, since the identifier is never used
 
 Elaborating module <miniscope_interface>.
 
@@ -168,19 +189,19 @@ Elaborating module <debounce(DELAY=50000)>.
 Elaborating module <debounce(DELAY=10000)>.
 
 Elaborating module <apply_min_width(DELAY=60000)>.
-WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" Line 56: Result of 24-bit expression is truncated to fit in 23-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\herrin\Documents\plusmaze_verilog\apply_min_width.v" Line 56: Result of 24-bit expression is truncated to fit in 23-bit target.
 
 Elaborating module <apply_min_width(DELAY=150000)>.
-WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" Line 56: Result of 24-bit expression is truncated to fit in 23-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\herrin\Documents\plusmaze_verilog\apply_min_width.v" Line 56: Result of 24-bit expression is truncated to fit in 23-bit target.
 
 Elaborating module <lick_logger>.
 
 Elaborating module <lick_bram>.
-WARNING:HDLCompiler:1499 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\ipcore_dir\lick_bram.v" Line 39: Empty module <lick_bram> remains a black box.
-WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" Line 86: Result of 20-bit expression is truncated to fit in 19-bit target.
-WARNING:HDLCompiler:413 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" Line 99: Result of 16-bit expression is truncated to fit in 15-bit target.
-WARNING:HDLCompiler:1016 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" Line 34: Port CLK180 is not connected to this instance
-WARNING:HDLCompiler:1016 - "C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" Line 62: Port BUSY is not connected to this instance
+WARNING:HDLCompiler:1499 - "C:\Users\herrin\Documents\plusmaze_verilog\ipcore_dir\lick_bram.v" Line 39: Empty module <lick_bram> remains a black box.
+WARNING:HDLCompiler:413 - "C:\Users\herrin\Documents\plusmaze_verilog\lick_logger.v" Line 86: Result of 20-bit expression is truncated to fit in 19-bit target.
+WARNING:HDLCompiler:413 - "C:\Users\herrin\Documents\plusmaze_verilog\lick_logger.v" Line 99: Result of 16-bit expression is truncated to fit in 15-bit target.
+WARNING:HDLCompiler:1016 - "C:\Users\herrin\Documents\plusmaze_verilog\okLibrary.v" Line 34: Port CLK180 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\herrin\Documents\plusmaze_verilog\okLibrary.v" Line 62: Port BUSY is not connected to this instance
 
 Elaborating module <okHost>.
 
@@ -211,35 +232,35 @@ Elaborating module <okWireOut>.
 Elaborating module <okTriggerIn>.
 
 Elaborating module <okPipeOut>.
-WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 74. All outputs of instance <db0> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
-WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 75. All outputs of instance <db1> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
-WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 76. All outputs of instance <db2> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
-WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 77. All outputs of instance <db3> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
-WARNING:Xst:2972 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 130. All outputs of instance <sc2> of block <stepper_controller2> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 76. All outputs of instance <db0> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 77. All outputs of instance <db1> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 78. All outputs of instance <db2> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 79. All outputs of instance <db3> of block <debounce> are unconnected in block <toplevel>. Underlying logic will be removed.
+WARNING:Xst:2972 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 132. All outputs of instance <sc2> of block <stepper_controller2> are unconnected in block <toplevel>. Underlying logic will be removed.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <toplevel>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/toplevel.v".
 WARNING:Xst:647 - Input <clk1> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 74: Output port <clean> of the instance <db0> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 75: Output port <clean> of the instance <db1> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 76: Output port <clean> of the instance <db2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 77: Output port <clean> of the instance <db3> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 130: Output port <motor_step> of the instance <sc2> is unconnected or connected to loadless signal.
-INFO:Xst:3210 - "c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v" line 130: Output port <motor_dir> of the instance <sc2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 76: Output port <clean> of the instance <db0> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 77: Output port <clean> of the instance <db1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 78: Output port <clean> of the instance <db2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 79: Output port <clean> of the instance <db3> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 132: Output port <motor_step> of the instance <sc2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "c:/users/herrin/documents/plusmaze_verilog/toplevel.v" line 132: Output port <motor_dir> of the instance <sc2> is unconnected or connected to loadless signal.
     Found 2-bit register for signal <last_prox>.
     Found 24-bit register for signal <clk_counter>.
-    Found 24-bit adder for signal <clk_counter[23]_GND_1_o_add_1_OUT> created at line 82.
+    Found 24-bit adder for signal <clk_counter[23]_GND_1_o_add_1_OUT> created at line 84.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  26 D-type flip-flop(s).
 Unit <toplevel> synthesized.
 
 Synthesizing Unit <miniscope_interface>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/miniscope_interface.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/miniscope_interface.v".
     Found 32-bit register for signal <frame_count>.
     Found 1-bit register for signal <miniscope_trig>.
     Found 2-bit register for signal <state>.
@@ -263,7 +284,7 @@ Synthesizing Unit <miniscope_interface>.
 Unit <miniscope_interface> synthesized.
 
 Synthesizing Unit <rc_driver>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/rc_driver.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/rc_driver.v".
         PULSE_STEP_SIZE = 12'b000001011010
         NUM_IDLE_PULSES = 4'b0100
         RC_PERIOD = 16'b0100111000100000
@@ -309,7 +330,7 @@ Synthesizing Unit <rc_driver>.
 Unit <rc_driver> synthesized.
 
 Synthesizing Unit <valve_driver>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/valve_driver.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/valve_driver.v".
     Found 4-bit register for signal <repeat_counter>.
     Found 24-bit register for signal <counter>.
     Found 1-bit register for signal <valve_out>.
@@ -341,7 +362,7 @@ Synthesizing Unit <valve_driver>.
 Unit <valve_driver> synthesized.
 
 Synthesizing Unit <stepper_controller>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/stepper_controller.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/stepper_controller.v".
         CLK_DIVIDE = 16'b0000011111010000
         NUM_STEPS = 12'b000110010000
     Found 2-bit register for signal <state>.
@@ -370,7 +391,7 @@ Synthesizing Unit <stepper_controller>.
 Unit <stepper_controller> synthesized.
 
 Synthesizing Unit <debounce_1>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/debounce.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/debounce.v".
         DELAY = 50000
     Found 1-bit register for signal <s>.
     Found 1-bit register for signal <clean>.
@@ -384,7 +405,7 @@ Synthesizing Unit <debounce_1>.
 Unit <debounce_1> synthesized.
 
 Synthesizing Unit <debounce_2>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/debounce.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/debounce.v".
         DELAY = 10000
     Found 1-bit register for signal <s>.
     Found 1-bit register for signal <clean>.
@@ -398,7 +419,7 @@ Synthesizing Unit <debounce_2>.
 Unit <debounce_2> synthesized.
 
 Synthesizing Unit <apply_min_width_1>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/apply_min_width.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/apply_min_width.v".
         DELAY = 60000
     Found 2-bit register for signal <state>.
     Found 23-bit register for signal <q>.
@@ -423,7 +444,7 @@ Synthesizing Unit <apply_min_width_1>.
 Unit <apply_min_width_1> synthesized.
 
 Synthesizing Unit <apply_min_width_2>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/apply_min_width.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/apply_min_width.v".
         DELAY = 150000
     Found 2-bit register for signal <state>.
     Found 23-bit register for signal <q>.
@@ -448,7 +469,7 @@ Synthesizing Unit <apply_min_width_2>.
 Unit <apply_min_width_2> synthesized.
 
 Synthesizing Unit <lick_logger>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/lick_logger.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/lick_logger.v".
         S_IDLE = 2'b00
         S_WAIT_FOR_SYNC = 2'b01
         S_RECORD = 2'b10
@@ -478,7 +499,7 @@ Synthesizing Unit <lick_logger>.
 Unit <lick_logger> synthesized.
 
 Synthesizing Unit <okHost>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/oklibrary.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/oklibrary.v".
     Set property "IOB = TRUE" for instance <delays[0].fdrein0>.
     Set property "IOB = TRUE" for instance <delays[0].fdreout0>.
     Set property "IOB = TRUE" for instance <delays[0].fdreout1>.
@@ -532,7 +553,7 @@ Synthesizing Unit <okHost>.
 Unit <okHost> synthesized.
 
 Synthesizing Unit <okWireOR>.
-    Related source file is "c:/users/kimth/documents/xilinx/maze_v5_controller/oklibrary.v".
+    Related source file is "c:/users/herrin/documents/plusmaze_verilog/oklibrary.v".
         N = 4
     Summary:
 	no macro.
@@ -605,6 +626,7 @@ Loading core <okWireIn> for timing and area information for instance <ep05>.
 Loading core <okWireIn> for timing and area information for instance <ep06>.
 Loading core <okWireIn> for timing and area information for instance <ep07>.
 Loading core <okWireIn> for timing and area information for instance <ep08>.
+Loading core <okWireIn> for timing and area information for instance <ep09>.
 Loading core <okWireOut> for timing and area information for instance <ep20>.
 Loading core <okWireOut> for timing and area information for instance <ep21>.
 Loading core <okWireOut> for timing and area information for instance <ep22>.
@@ -1082,25 +1104,25 @@ Top Level Output File Name         : toplevel.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 3131
+# BELS                             : 3136
 #      GND                         : 6
-#      INV                         : 73
+#      INV                         : 74
 #      LUT1                        : 331
 #      LUT2                        : 316
 #      LUT3                        : 96
-#      LUT4                        : 245
-#      LUT5                        : 312
-#      LUT6                        : 437
+#      LUT4                        : 246
+#      LUT5                        : 314
+#      LUT6                        : 438
 #      MUXCY                       : 688
 #      MUXF7                       : 19
 #      VCC                         : 3
 #      XORCY                       : 605
-# FlipFlops/Latches                : 1302
+# FlipFlops/Latches                : 1334
 #      FD                          : 63
 #      FDC                         : 96
 #      FDE                         : 527
 #      FDR                         : 31
-#      FDRE                        : 583
+#      FDRE                        : 615
 #      FDS                         : 2
 # RAMS                             : 31
 #      RAMB16BWER                  : 31
@@ -1124,16 +1146,16 @@ Selected Device : 6slx16ftg256-2
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:            1254  out of  18224     6%  
- Number of Slice LUTs:                 1810  out of   9112    19%  
-    Number used as Logic:              1810  out of   9112    19%  
+ Number of Slice Registers:            1286  out of  18224     7%  
+ Number of Slice LUTs:                 1815  out of   9112    19%  
+    Number used as Logic:              1815  out of   9112    19%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:   2336
-   Number with an unused Flip Flop:    1082  out of   2336    46%  
-   Number with an unused LUT:           526  out of   2336    22%  
-   Number of fully used LUT-FF pairs:   728  out of   2336    31%  
-   Number of unique control sets:        80
+ Number of LUT Flip Flop pairs used:   2372
+   Number with an unused Flip Flop:    1086  out of   2372    45%  
+   Number with an unused LUT:           557  out of   2372    23%  
+   Number of fully used LUT-FF pairs:   729  out of   2372    30%  
+   Number of unique control sets:        82
 
 IO Utilization: 
  Number of IOs:                          66
@@ -1168,7 +1190,7 @@ Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
 clk_counter_1                      | BUFG                   | 773   |
 clk2                               | BUFGP                  | 2     |
-hi_in<0>                           | DCM_SP:CLK0            | 589   |
+hi_in<0>                           | okHI/hi_dcm:CLK0       | 621   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -1254,7 +1276,7 @@ Delay:               1.956ns (Levels of Logic = 3)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'hi_in<0>'
   Clock period: 7.902ns (frequency: 126.546MHz)
-  Total number of paths / destination ports: 5798 / 1662
+  Total number of paths / destination ports: 6022 / 1758
 -------------------------------------------------------------------------
 Delay:               7.902ns (Levels of Logic = 9)
   Source:            logger/buffer/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/has_mux_b.B/sel_pipe_1 (FF)
@@ -1328,27 +1350,28 @@ Offset:              4.092ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'hi_in<0>'
-  Total number of paths / destination ports: 33 / 17
+  Total number of paths / destination ports: 35 / 19
 -------------------------------------------------------------------------
-Offset:              4.118ns (Levels of Logic = 2)
-  Source:            okHI/hicore/hi_busy (FF)
-  Destination:       hi_out<0> (PAD)
+Offset:              5.098ns (Levels of Logic = 3)
+  Source:            ep09/ep_dataout_0 (FF)
+  Destination:       led<0> (PAD)
   Source Clock:      hi_in<0> rising
 
-  Data Path: okHI/hicore/hi_busy to hi_out<0>
+  Data Path: ep09/ep_dataout_0 to led<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FD:C->Q               1   0.525   0.681  hi_busy (hi_out<0>)
-     end scope: 'okHI/hicore:hi_out<0>'
-     OBUF:I->O                 2.912          okHI/obuf0 (hi_out<0>)
+     FDRE:C->Q             2   0.525   0.725  ep_dataout_0 (ep_dataout<0>)
+     end scope: 'ep09:ep_dataout<0>'
+     INV:I->O              1   0.255   0.681  led<0>1_INV_0 (led_0_OBUF)
+     OBUF:I->O                 2.912          led_0_OBUF (led<0>)
     ----------------------------------------
-    Total                      4.118ns (3.437ns logic, 0.681ns route)
-                                       (83.5% logic, 16.5% route)
+    Total                      5.098ns (3.692ns logic, 1.406ns route)
+                                       (72.4% logic, 27.6% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_counter_1'
-  Total number of paths / destination ports: 20 / 13
+  Total number of paths / destination ports: 19 / 12
 -------------------------------------------------------------------------
 Offset:              5.706ns (Levels of Logic = 2)
   Source:            d0/state_FSM_FFd2 (FF)
@@ -1437,14 +1460,14 @@ hi_in<0>       |    7.902|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 22.00 secs
-Total CPU time to Xst completion: 21.58 secs
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 19.80 secs
  
 --> 
 
-Total memory usage is 268484 kilobytes
+Total memory usage is 253528 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  201 (   0 filtered)
+Number of warnings :  221 (   0 filtered)
 Number of infos    :   87 (   0 filtered)
 

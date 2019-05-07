@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map O.76xd on Wed Dec 17 16:20:19 2014
+// Written by: Map O.40d on Mon May 06 16:09:03 2019
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -40,11 +40,11 @@ COMP "rc_out0" LOCATE = SITE "A13" LEVEL 1;
 COMP "rc_out1" LOCATE = SITE "A12" LEVEL 1;
 COMP "rc_out2" LOCATE = SITE "A11" LEVEL 1;
 COMP "rc_out3" LOCATE = SITE "A9" LEVEL 1;
-COMP "lick_out2" LOCATE = SITE "M16" LEVEL 1;
 COMP "button<0>" LOCATE = SITE "D5" LEVEL 1;
 COMP "button<1>" LOCATE = SITE "D6" LEVEL 1;
 COMP "button<2>" LOCATE = SITE "D8" LEVEL 1;
 COMP "button<3>" LOCATE = SITE "D9" LEVEL 1;
+COMP "opto_shutter" LOCATE = SITE "M16" LEVEL 1;
 COMP "hi_in<0>" LOCATE = SITE "N8" LEVEL 1;
 COMP "hi_in<1>" LOCATE = SITE "T10" LEVEL 1;
 COMP "hi_in<2>" LOCATE = SITE "T5" LEVEL 1;
@@ -257,10 +257,11 @@ TIMEGRP okHI_dcm_clk0 = BEL "okHI/delays[15].fdrein0" BEL
         "okHI/delays[2].fdreout1" BEL "okHI/delays[2].fdreout0" BEL
         "okHI/delays[1].fdreout1" BEL "okHI/delays[1].fdreout0" BEL
         "okHI/delays[0].fdreout1" BEL "okHI/delays[0].fdreout0" BEL
-        "ep08/ep_datahold_0" BEL "ep08/ep_datahold_1" BEL "ep08/ep_datahold_2"
-        BEL "ep08/ep_datahold_3" BEL "ep08/ep_datahold_4" BEL
-        "ep08/ep_datahold_5" BEL "ep08/ep_datahold_6" BEL "ep08/ep_datahold_7"
-        BEL "ep08/ep_datahold_8" BEL "ep08/ep_datahold_9" BEL
+        "ep09/ep_datahold_0" BEL "ep09/ep_dataout_0" BEL "ep08/ep_datahold_0"
+        BEL "ep08/ep_datahold_1" BEL "ep08/ep_datahold_2" BEL
+        "ep08/ep_datahold_3" BEL "ep08/ep_datahold_4" BEL "ep08/ep_datahold_5"
+        BEL "ep08/ep_datahold_6" BEL "ep08/ep_datahold_7" BEL
+        "ep08/ep_datahold_8" BEL "ep08/ep_datahold_9" BEL
         "ep08/ep_datahold_10" BEL "ep08/ep_datahold_11" BEL
         "ep08/ep_datahold_12" BEL "ep08/ep_datahold_13" BEL
         "ep08/ep_datahold_14" BEL "ep08/ep_datahold_15" BEL

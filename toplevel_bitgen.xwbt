@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.ncd
-OUTFILE=C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.bit
+INFILE=C:\Users\herrin\Documents\plusmaze_verilog\toplevel.ncd
+OUTFILE=C:\Users\herrin\Documents\plusmaze_verilog\toplevel.bit
 FAMILY=Spartan6
 PART=xc6slx16-2ftg256
-WORKINGDIR=C:\Users\kimth\Documents\xilinx\maze_v5_controller
+WORKINGDIR=C:\Users\herrin\Documents\plusmaze_verilog
 LICENSE=WebPack
-USER_INFO=210780933_0_0_218
+USER_INFO=211648146_0_0_455

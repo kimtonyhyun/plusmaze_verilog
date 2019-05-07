@@ -1,57 +1,50 @@
-Release 13.3 par O.76xd (nt64)
+Release 13.1 par O.40d (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 
-KIMTH-PC::  Wed Dec 17 16:20:23 2014
+PREFRONTAL-PC::  Mon May 06 16:09:06 2019
 
 par -w -intstyle ise -ol high -mt off toplevel_map.ncd toplevel.ncd
 toplevel.pcf 
 
 
 Constraints file: toplevel.pcf.
-Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\13.3\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '6slx16.nph' in environment C:\Xilinx\13.1\ISE_DS\ISE\.
    "toplevel" is an NCD, version 3.2, device xc6slx16, package ftg256, speed -2
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
-INFO:Security:54 - 'xc6slx16' is a WebPack part.
-WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
-to function, but you no longer qualify for Xilinx software updates or new releases.
-
-----------------------------------------------------------------------
 
 Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
 Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
 
 
-Device speed data version:  "PRODUCTION 1.20 2011-10-03".
+Device speed data version:  "PRODUCTION 1.17 2011-02-03".
 
 
 
 Device Utilization Summary:
 
 Slice Logic Utilization:
-  Number of Slice Registers:                 1,123 out of  18,224    6%
-    Number used as Flip Flops:               1,123
+  Number of Slice Registers:                 1,125 out of  18,224    6%
+    Number used as Flip Flops:               1,125
     Number used as Latches:                      0
     Number used as Latch-thrus:                  0
     Number used as AND/OR logics:                0
-  Number of Slice LUTs:                      1,543 out of   9,112   16%
-    Number used as logic:                    1,473 out of   9,112   16%
-      Number using O6 output only:             821
+  Number of Slice LUTs:                      1,556 out of   9,112   17%
+    Number used as logic:                    1,477 out of   9,112   16%
+      Number using O6 output only:             825
       Number using O5 output only:             313
       Number using O5 and O6:                  339
       Number used as ROM:                        0
     Number used as Memory:                       0 out of   2,176    0%
-    Number used exclusively as route-thrus:     70
-      Number with same-slice register load:     50
+    Number used exclusively as route-thrus:     79
+      Number with same-slice register load:     59
       Number with same-slice carry load:        20
       Number with other load:                    0
 
 Slice Logic Distribution:
-  Number of occupied Slices:                   605 out of   2,278   26%
-  Nummber of MUXCYs used:                      768 out of   4,556   16%
-  Number of LUT Flip Flop pairs used:        1,809
-    Number with an unused Flip Flop:           773 out of   1,809   42%
-    Number with an unused LUT:                 266 out of   1,809   14%
-    Number of fully used LUT-FF pairs:         770 out of   1,809   42%
+  Number of occupied Slices:                   602 out of   2,278   26%
+  Number of LUT Flip Flop pairs used:        1,833
+    Number with an unused Flip Flop:           804 out of   1,833   43%
+    Number with an unused LUT:                 277 out of   1,833   15%
+    Number of fully used LUT-FF pairs:         752 out of   1,833   41%
     Number of slice register sites lost
       to control set restrictions:               0 out of  18,224    0%
 
@@ -111,8 +104,8 @@ Router effort level (-rl):    High
 WARNING:Timing:3175 - hi_in<0> does not clock data to hi_out<1>
 WARNING:Timing:3225 - Timing constraint COMP "hi_out<1>" OFFSET = OUT 11.93 ns AFTER COMP "hi_in<0>" "RISING"; ignored during timing
    analysis
-Starting initial Timing Analysis.  REAL time: 4 secs 
-Finished initial Timing Analysis.  REAL time: 4 secs 
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 5 secs 
 
 WARNING:Par:288 - The signal clk1_IBUF has no load.  PAR will not attempt to route this signal.
 WARNING:Par:288 - The signal button<0>_IBUF has no load.  PAR will not attempt to route this signal.
@@ -122,29 +115,29 @@ WARNING:Par:288 - The signal button<3>_IBUF has no load.  PAR will not attempt t
 Starting Router
 
 
-Phase  1  : 11352 unrouted;      REAL time: 5 secs 
+Phase  1  : 11364 unrouted;      REAL time: 5 secs 
 
-Phase  2  : 7664 unrouted;      REAL time: 5 secs 
+Phase  2  : 7681 unrouted;      REAL time: 6 secs 
 
-Phase  3  : 2920 unrouted;      REAL time: 10 secs 
+Phase  3  : 2908 unrouted;      REAL time: 11 secs 
 
-Phase  4  : 2920 unrouted; (Setup:0, Hold:163, Component Switching Limit:0)     REAL time: 11 secs 
+Phase  4  : 2908 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 12 secs 
 
 Updating file: toplevel.ncd with current fully routed design.
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:39, Component Switching Limit:0)     REAL time: 14 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:39, Component Switching Limit:0)     REAL time: 14 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:39, Component Switching Limit:0)     REAL time: 14 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:39, Component Switching Limit:0)     REAL time: 14 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
 
-Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 14 secs 
+Phase  9  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
 
-Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 14 secs 
-Total REAL time to Router completion: 14 secs 
-Total CPU time to Router completion: 14 secs 
+Phase 10  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 16 secs 
+Total REAL time to Router completion: 16 secs 
+Total CPU time to Router completion: 16 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -162,22 +155,19 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|  clk_counter_1_BUFG |  BUFGMUX_X2Y3| No   |  246 |  0.063     |  1.138      |
+|  clk_counter_1_BUFG |  BUFGMUX_X2Y3| No   |  251 |  0.062     |  1.137      |
 +---------------------+--------------+------+------+------------+-------------+
-|             ok1<24> | BUFGMUX_X3Y13| No   |  169 |  0.640     |  1.712      |
+|             ok1<24> | BUFGMUX_X3Y13| No   |  170 |  0.639     |  1.712      |
 +---------------------+--------------+------+------+------------+-------------+
-|          clk2_BUFGP |  BUFGMUX_X2Y4| No   |    1 |  0.000     |  1.081      |
+|          clk2_BUFGP |  BUFGMUX_X2Y4| No   |    1 |  0.000     |  1.076      |
 +---------------------+--------------+------+------+------------+-------------+
-|       hi_in_0_IBUFG |         Local|      |    3 |  0.844     |  3.938      |
+|       hi_in_0_IBUFG |         Local|      |    3 |  0.639     |  3.450      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
 only delays for the net. Note this is different from Clock Skew which
 is reported in TRCE timing report. Clock Skew is the difference between
 the minimum and maximum path delays which includes logic delays.
-
-* The fanout is the number of component pins not the individual BEL loads,
-for example SLICE loads not FF loads.
 
 Timing Score: 0 (Setup: 0, Hold: 0, Component Switching Limit: 0)
 
@@ -190,50 +180,50 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_out<0>" OFFSET = OUT 11.93 ns AF | MAXDELAY    |     3.235ns|     8.695ns|       0|           0
+  COMP "hi_out<0>" OFFSET = OUT 11.93 ns AF | MAXDELAY    |     3.505ns|     8.425ns|       0|           0
   TER COMP "hi_in<0>" "RISING"              |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TIMEGRP "okHostINOUT_grp" OFFSET = IN 9.8 | SETUP       |     3.989ns|     5.841ns|       0|           0
-  3 ns VALID 9.83 ns BEFORE COMP         "h | HOLD        |     1.013ns|            |       0|           0
+  TIMEGRP "okHostINOUT_grp" OFFSET = IN 9.8 | SETUP       |     4.080ns|     5.750ns|       0|           0
+  3 ns VALID 9.83 ns BEFORE COMP         "h | HOLD        |     1.102ns|            |       0|           0
   i_in<0>" "RISING"                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  TS_okHostClk = PERIOD TIMEGRP "okHostClk" | SETUP       |    18.679ns|     2.151ns|       0|           0
-   20.83 ns HIGH 50%                        | HOLD        |     0.250ns|            |       0|           0
+  TS_okHostClk = PERIOD TIMEGRP "okHostClk" | SETUP       |    19.271ns|     1.559ns|       0|           0
+   20.83 ns HIGH 50%                        | HOLD        |     0.355ns|            |       0|           0
                                             | MINLOWPULSE |     4.829ns|    16.000ns|       0|           0
 ----------------------------------------------------------------------------------------------------------
-  TIMEGRP "okHostINOUT_grp" OFFSET = OUT 11 | MAXDELAY    |     4.909ns|     6.721ns|       0|           0
+  TIMEGRP "okHostINOUT_grp" OFFSET = OUT 11 | MAXDELAY    |     4.998ns|     6.632ns|       0|           0
   .63 ns AFTER COMP "hi_in<0>"         "RIS |             |            |            |        |            
   ING"                                      |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<6>" OFFSET = IN 13.33 ns VALI | SETUP       |     5.909ns|     7.421ns|       0|           0
+  COMP "hi_in<6>" OFFSET = IN 13.33 ns VALI | SETUP       |     6.540ns|     6.790ns|       0|           0
+  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.538ns|            |       0|           0
+   "RISING"                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "hi_in<7>" OFFSET = IN 13.33 ns VALI | SETUP       |     6.546ns|     6.784ns|       0|           0
+  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.528ns|            |       0|           0
+   "RISING"                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "hi_in<5>" OFFSET = IN 13.33 ns VALI | SETUP       |     6.956ns|     6.374ns|       0|           0
   D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.445ns|            |       0|           0
    "RISING"                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<7>" OFFSET = IN 13.33 ns VALI | SETUP       |     5.929ns|     7.401ns|       0|           0
-  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.491ns|            |       0|           0
+  COMP "hi_in<4>" OFFSET = IN 13.33 ns VALI | SETUP       |     7.073ns|     6.257ns|       0|           0
+  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.366ns|            |       0|           0
    "RISING"                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<4>" OFFSET = IN 13.33 ns VALI | SETUP       |     6.507ns|     6.823ns|       0|           0
-  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.359ns|            |       0|           0
-   "RISING"                                 |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<5>" OFFSET = IN 13.33 ns VALI | SETUP       |     6.532ns|     6.798ns|       0|           0
-  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.450ns|            |       0|           0
-   "RISING"                                 |             |            |            |        |            
-----------------------------------------------------------------------------------------------------------
-  TS_okHI_dcm_clk0 = PERIOD TIMEGRP "okHI_d | SETUP       |     6.997ns|    13.833ns|       0|           0
+  TS_okHI_dcm_clk0 = PERIOD TIMEGRP "okHI_d | SETUP       |     7.094ns|    13.736ns|       0|           0
   cm_clk0" TS_okHostClk HIGH 50%            | HOLD        |     0.401ns|            |       0|           0
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<1>" OFFSET = IN 14.13 ns VALI | SETUP       |     8.332ns|     5.798ns|       0|           0
-  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.234ns|            |       0|           0
+  COMP "hi_in<1>" OFFSET = IN 14.13 ns VALI | SETUP       |     8.352ns|     5.778ns|       0|           0
+  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.428ns|            |       0|           0
    "RISING"                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<3>" OFFSET = IN 14.13 ns VALI | SETUP       |     8.932ns|     5.198ns|       0|           0
-  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.090ns|            |       0|           0
+  COMP "hi_in<2>" OFFSET = IN 14.13 ns VALI | SETUP       |     8.666ns|     5.464ns|       0|           0
+  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.139ns|            |       0|           0
    "RISING"                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
-  COMP "hi_in<2>" OFFSET = IN 14.13 ns VALI | SETUP       |     8.985ns|     5.145ns|       0|           0
-  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     7.925ns|            |       0|           0
+  COMP "hi_in<3>" OFFSET = IN 14.13 ns VALI | SETUP       |     8.723ns|     5.407ns|       0|           0
+  D 20.83 ns BEFORE COMP "hi_in<0>"         | HOLD        |     8.161ns|            |       0|           0
    "RISING"                                 |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
   COMP "hi_out<1>" OFFSET = OUT 11.93 ns AF | N/A         |         N/A|         N/A|     N/A|         N/A
@@ -251,8 +241,8 @@ Derived Constraints for TS_okHostClk
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|TS_okHostClk                   |     20.830ns|     16.000ns|     13.833ns|            0|            0|            3|         5067|
-| TS_okHI_dcm_clk0              |     20.830ns|     13.833ns|          N/A|            0|            0|         5067|            0|
+|TS_okHostClk                   |     20.830ns|     16.000ns|     13.736ns|            0|            0|            3|         5081|
+| TS_okHI_dcm_clk0              |     20.830ns|     13.736ns|          N/A|            0|            0|         5081|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -269,10 +259,10 @@ All signals are completely routed.
 
 WARNING:Par:283 - There are 5 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
 
-Total REAL time to PAR completion: 15 secs 
-Total CPU time to PAR completion: 15 secs 
+Total REAL time to PAR completion: 17 secs 
+Total CPU time to PAR completion: 17 secs 
 
-Peak Memory Usage:  345 MB
+Peak Memory Usage:  328 MB
 
 Placer: Placement generated during map.
 Routing: Completed - No errors found.

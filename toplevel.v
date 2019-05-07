@@ -32,7 +32,7 @@ module toplevel(
 	
 	input wire [3:0] lick,
 	output wire lick_out,
-	output wire lick_out2,
+	output wire opto_shutter,
 	
 	output wire step,
 	output wire dir,
@@ -59,6 +59,8 @@ wire [15:0] ep05wire;
 wire [15:0] ep06wire;
 wire [15:0] ep07wire;
 wire [15:0] ep08wire; // Valve pulse repeat count
+
+wire [15:0] ep09wire; // Misc controls, including opto interface
 
 wire [15:0] ep20wire; // General status (e.g. last activated prox, lick state)
 wire [15:0] ep21wire; // Frame counter - Low
@@ -194,13 +196,13 @@ lick_logger logger(.clk(clk_1mhz),
 						 .pipe_read(pipe_read), .pipe_data(pipe_data));
 
 assign lick_out  = lick_combined;
-assign lick_out2 = lick_minwidth; 
 
 assign ep20wire = {13'd0, lick_slow, last_prox};
 
 // Indicators
 //assign led = {lick, ~prox_d};
-assign led = 8'hFF; // Disable LEDs
+assign led = ~{7'b0, ep09wire[0]};
+assign opto_shutter = ep09wire[0];
 
 // Instantiate the okHost and connect endpoints.
 wire [17*4-1:0]  ok2x;
@@ -220,6 +222,7 @@ okWireIn     ep05 (.ok1(ok1),                          .ep_addr(8'h05), .ep_data
 okWireIn     ep06 (.ok1(ok1),                          .ep_addr(8'h06), .ep_dataout(ep06wire));
 okWireIn     ep07 (.ok1(ok1),                          .ep_addr(8'h07), .ep_dataout(ep07wire));
 okWireIn     ep08 (.ok1(ok1),                          .ep_addr(8'h08), .ep_dataout(ep08wire));
+okWireIn     ep09 (.ok1(ok1),                          .ep_addr(8'h09), .ep_dataout(ep09wire));
 
 okWireOut    ep20 (.ok1(ok1), .ok2(ok2x[ 0*17 +: 17 ]), .ep_addr(8'h20), .ep_datain(ep20wire));
 okWireOut    ep21 (.ok1(ok1), .ok2(ok2x[ 1*17 +: 17 ]), .ep_addr(8'h21), .ep_datain(ep21wire));

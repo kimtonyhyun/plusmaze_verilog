@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-12-17T12:24:32</DateModified>
+  <DateModified>2019-05-06T15:12:22</DateModified>
   <ModuleName>toplevel</ModuleName>
   <SummaryTimeStamp>2014-12-05T18:51:53</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/kimth/Documents/xilinx/maze_v5_controller/iseconfig/toplevel.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/kimth/Documents/xilinx/maze_v5_controller\</ImplementationReportsDirectory>
+  <SavedFilePath>C:/Users/herrin/Documents/plusmaze_verilog/iseconfig/toplevel.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>C:/Users/herrin/Documents/plusmaze_verilog\</ImplementationReportsDirectory>
   <DateInitialized>2014-05-12T22:04:27</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

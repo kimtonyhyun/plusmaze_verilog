@@ -1,10 +1,10 @@
-Release 13.3 - WebTalk (O.76xd)
+Release 13.1 - WebTalk (O.40d)
 Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
 
 Project Information
 --------------------
 ProjectID=09874CB7044F46F1B73BD8A9CD49459E
-ProjectIteration=307
+ProjectIteration=309
 
 WebTalk Summary
 ----------------
@@ -13,4 +13,4 @@ INFO:WebTalk:1 - WebTalk is enabled because you are using a WebPACK license.
 INFO:WebTalk:9 - WebTalk Install setting is OFF.
 INFO:WebTalk:6 - WebTalk User setting is ON.
 
-INFO:WebTalk:5 - C:/Users/kimth/Documents/xilinx/maze_v5_controller/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/13.3/ISE_DS/ISE/data/reports/webtalk_introduction.html
+INFO:WebTalk:5 - C:/Users/herrin/Documents/plusmaze_verilog/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/13.1/ISE_DS/ISE/data/reports/webtalk_introduction.html

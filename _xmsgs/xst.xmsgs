@@ -5,73 +5,133 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 74: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 76: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db0</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 75: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 77: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db1</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 76: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 78: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db2</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\toplevel.v" Line 77: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 79: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db3</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" Line 56: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">23</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 107: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">d0</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\apply_min_width.v" Line 56: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">23</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 108: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">d1</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\ipcore_dir\lick_bram.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">lick_bram</arg>&gt; remains a black box.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 109: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">d2</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" Line 86: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">19</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 110: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">d3</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\lick_logger.v" Line 99: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 119: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">vd0</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" Line 34: Port <arg fmt="%s" index="1">CLK180</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 120: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">vd1</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\kimth\Documents\xilinx\maze_v5_controller\okLibrary.v" Line 62: Port <arg fmt="%s" index="1">BUSY</arg> is not connected to this instance
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 121: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">vd2</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">74</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db0</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 122: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">vd3</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">75</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db1</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 139: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db4</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">76</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db2</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 140: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db5</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">77</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db3</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 141: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db6</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
 </msg>
 
-<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">130</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">sc2</arg>&gt; of block &lt;<arg fmt="%s" index="4">stepper_controller2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 142: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db7</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 167: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db8</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 168: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db9</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 169: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db10</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1694" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 170: Positional port connection in entity/module instantiation &lt;<arg fmt="%s" index="1">db11</arg>&gt; increases the risk of design errors, affects readability, and makes your code less adaptable. Use of explicit formal/effective port connection is highly recommended instead.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 76: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 77: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 78: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\toplevel.v" Line 79: Assignment to <arg fmt="%s" index="1">btn_d</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\apply_min_width.v" Line 56: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">23</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\apply_min_width.v" Line 56: Result of <arg fmt="%d" index="1">24</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">23</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\ipcore_dir\lick_bram.v" Line 39: Empty module &lt;<arg fmt="%s" index="1">lick_bram</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\lick_logger.v" Line 86: Result of <arg fmt="%d" index="1">20</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">19</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\lick_logger.v" Line 99: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">15</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\okLibrary.v" Line 34: Port <arg fmt="%s" index="1">CLK180</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"C:\Users\herrin\Documents\plusmaze_verilog\okLibrary.v" Line 62: Port <arg fmt="%s" index="1">BUSY</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">76</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db0</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">77</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db1</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">78</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db2</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">79</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">db3</arg>&gt; of block &lt;<arg fmt="%s" index="4">debounce</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%d" index="2">132</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">sc2</arg>&gt; of block &lt;<arg fmt="%s" index="4">stepper_controller2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">toplevel</arg>&gt;. Underlying logic will be removed.
 </msg>
 
 <msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">clk1</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">74</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db0</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db0</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">75</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db1</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">77</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db1</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">76</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">78</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">77</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db3</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">79</arg>: Output port &lt;<arg fmt="%s" index="3">clean</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">db3</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">130</arg>: Output port &lt;<arg fmt="%s" index="3">motor_step</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sc2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">132</arg>: Output port &lt;<arg fmt="%s" index="3">motor_step</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sc2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/kimth/documents/xilinx/maze_v5_controller/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">130</arg>: Output port &lt;<arg fmt="%s" index="3">motor_dir</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sc2</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">c:/users/herrin/documents/plusmaze_verilog/toplevel.v</arg>&quot; line <arg fmt="%s" index="2">132</arg>: Output port &lt;<arg fmt="%s" index="3">motor_dir</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">sc2</arg>&gt; is unconnected or connected to loadless signal.
 </msg>
 
 <msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
